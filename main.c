@@ -34,6 +34,7 @@ int main(void) {
       //gerando um número aleatório
       srand(time(NULL));
       int num_pc = rand() % 100;
+      printf("%d\n", num_pc);
   
 
       //pedindo um número ao jogador e salvando
